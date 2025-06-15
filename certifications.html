@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><u>Certifications</u></title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="page-container">
+    <h1 class="page-title"><u>My Certifications</u></h1>
+
+    <div class="certificates-section">
+      <div class="certificate-card">
+        <h2>Web Development</h2>
+        <img src="./webdevelopment.jpg" class="cert-preview" alt="Web Dev Certificate" data-index="0" />
+        <div class="cert-buttons">
+          <a href="./webdevelopment.jpg" download>Download</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <h2>Intro to Machine Learning (NPTEL)</h2>
+        <img src="./Introduction To Machine Learning - IITKGP (1)_page-0001.jpg" class="cert-preview" alt="ML Certificate" data-index="1" />
+        <div class="cert-buttons">
+          <a href="./Introduction To Machine Learning - IITKGP (1)_page-0001.jpg" download>Download</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <h2>Full Stack Web Development (Udemy)</h2>
+        <img src="./fullstack.jpg" class="cert-preview" alt="Full Stack Certificate" data-index="2" />
+        <div class="cert-buttons">
+          <a href="./fullstack.jpg" download>Download</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="home.html" class="back-home-btn">← Back to Home</a>
+  </div>
+
+  <div id="certModal" class="modal">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <img id="modalImg" src="" alt="Full Certificate"/>
+    </div>
+    <div class="modal-nav">
+      <button onclick="prevCert()">← Previous</button>
+      <button onclick="toggleZoom()">Zoom</button>
+      <button onclick="nextCert()">Next →</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

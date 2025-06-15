@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #f9f9f9, #e3f2fd);
+  background: #ffffff;
   color: #333;
   line-height: 1.6;
   display: flex;
@@ -77,6 +77,7 @@ ul {
 .social-links a:hover {
   color: #4CAF50;
 }
+
 .github-icon-wrapper {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -117,8 +118,8 @@ ul {
 }
 
 .landing {
-  background: linear-gradient(to right, #4CAF50, #81C784);
-  color: white;
+  background: #ffffff;
+  color: #2c3e50;
   font-size: 1.5rem;
   text-align: center;
   padding: 60px 20px;
